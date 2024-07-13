@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>СРОЧНАЯ ДОСТАВКА!</title>
+<title>Срочная доставка блинов!</title>
 <script>
 function startTimer(duration, display) {
-var timer = duration, minutes, seconds;
+    var timer = duration, minutes, seconds;
     setInterval(function () {
         minutes = parseInt(timer / 60, 10);
         seconds = parseInt(timer % 60, 10);
@@ -26,8 +26,11 @@ window.onload = function () {
 </script>
 </head>
 <body>
-<h1>Время доставки - ограничено. Поторопись!</h1>
-<p><a href="https://www.google.com/maps/dir/?api=1&origin=52.596080,39.594692&destination=52.590688,39.513321" target="_blank">ПОГНАЛИ!</a></p>
-<p>Таймер:<span id="time">13:00</span></p>
+<h1>Время доставки ограничено. Поторопись!!!</h1>
+
+<p><a href="https://www.google.com/maps/dir/?api=1&origin=52.596080,39.594692&destination=52.590688,39.513321" target="_blank">Открыть маршрут на Google Maps</a></p>
+<p><a href="https://yandex.ru/maps/?rtext=52.596080,39.594692~52.590688,39.513321" target="_blank">Открыть маршрут на Yandex Maps</a></p>
+
+<p>Таймер: <span id="time">13:00</span></p>
 </body>
 </html>
